@@ -2,6 +2,8 @@
 
 import { Code, MessageSquare, Music, Video, VideoIcon } from "lucide-react";
 
+import { cn } from "@/lib/utils";
+
 import { Card } from "@/components/ui/card";
 
 import { ArrowRight } from "lucide-react";
@@ -32,7 +34,7 @@ const tools = [
     href: "/image"
   },
   {
-    label: "Video Generation",
+    label: "Video Geneeeration",
     icon: VideoIcon,
     color: "text-orange-500",
     bgColor: "text-orange-500/10",
